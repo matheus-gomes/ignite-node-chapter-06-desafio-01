@@ -1,0 +1,29 @@
+{
+  "name": "ignite-node-chapter-06-desafio-01",
+  "version": "1.0.0",
+  "description": "Serverless aws-nodejs-typescript template",
+  "scripts": {
+    "dev": "serverless offline",
+    "dynamo:start": "serverless dynamodb start",
+    "deploy": "sls deploy -v"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1014.0",
+    "babel-loader": "^8.2.2",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@serverless/typescript": "^2.23.0",
+    "@types/aws-lambda": "^8.10.71",
+    "@types/uuid": "^8.3.1",
+    "serverless": "^2.23.0",
+    "serverless-dynamodb-local": "^0.2.40",
+    "serverless-offline": "^6.9.0",
+    "serverless-webpack": "^5.4.1",
+    "ts-loader": "^8.0.15",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3",
+    "webpack": "^5.20.2",
+    "webpack-node-externals": "^2.5.2"
+  }
+}
